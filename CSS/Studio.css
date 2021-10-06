@@ -1,0 +1,35 @@
+#main #Description{
+width: 50%;
+height:auto;
+padding:1%;
+text-align: unset;
+float: left;
+}
+
+#Map img{
+    width: 600px;
+}
+
+#StudioSpace{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width:1750px) {
+    #main #Description{
+        float: none;
+        width: 100%;
+    }
+
+    #Map{
+        text-align: center;
+    }
+}
+
+@media (max-width:1000px) {
+    #Map img, #StudioSpace img{
+        width: 80%;
+        margin: auto;
+    }
+}

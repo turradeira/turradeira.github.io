@@ -1,0 +1,64 @@
+#main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Business, .Support {
+    float: left;
+    width: 50%;
+}
+
+p:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+fieldset input {
+    width: 100%;
+    background-color: #252525;
+    color: white;
+    border: 0px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+fieldset textarea{
+
+    resize: none;
+    height: 150px;
+    width: 100%;
+    background-color: #252525;
+    color: white;
+    border: 0px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+
+
+fieldset #idSubmit{
+
+    text-align: center;
+    
+
+}
+
+fieldset{
+
+    border: 0px !important;
+}
+
+
+@media (max-width:1000px) {
+    .Support{
+        float: none;
+    }
+    .Support, .Business{
+        width: 100%;
+    }
+}

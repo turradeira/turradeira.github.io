@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games and Multimedia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+</head>
+<body>
+    <header>
+        <div id="ComponentsPos">
+            <div id="logo">
+                <a href="Home.html">
+                    <img src="img/Logo.png" alt="Logo of the Studio">
+                </a>
+            </div>
+            <div class="icon" onclick="myFunction()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a>
+                        <div class="navBreak"></div>
+                    </li>
+                    <li><a href="Games.html">Games</a>
+                        <div class="navBreak"></div>
+                    </li>
+                    <li><a href="Studio.html">Studio</a>
+                        <div class="navBreak"></div>
+                    </li>
+                    <li><a href="Team.html">Team</a>
+                        <div class="navBreak"></div>
+                    </li>
+                    <li  class="sel"><a href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="main">
+        <div class="Support">
+            <h2 style="text-align:left">Support</h2>
+            <ul>
+                <li>
+                    <p style="text-align:left">
+                        If the game is not running, please try to close the game and start it again first. If that doesn't
+                        help, try to uninstall and install it. If that still proves to be ineffective, please contact
+                        us through the SUPPORT contact form below. Also feel free to just share your opinion or leave a suggestion!
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align:left">
+                        If you want to report any technical issues (glitches, bugs etc): please be specific about the
+                        game,
+                        platform and device/hardware (Nexus 10, iPad mini 4, Windows PC etc.) and your system (e.g. iOS
+                        9.3,
+                        Windows 10 etc.).
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align:left">
+                        Regarding Linux support in our games, we use various technologies and try to support Linux where
+                        it's possible,
+                        but unfortunately sometimes it's hard or impossible to provide stable Linux versions.
+                    </p>
+                </li>
+            </ul>
+
+            <form action="#" method="get" id="idForm" class="Form">
+                <fieldset>
+                    <div class="setField">
+                        <label for="idName">Name</label>
+                        <input type="text" name="name" id="idName" value="">
+                    </div>
+                    <br>
+                    <div class="setField">
+                        <label for="idEmail">Email</label>
+                        <input type="text" name="email" id="idEmail" value="">
+                    </div>
+                    <br/>
+                    <div class="setField">
+                        <label for="idSubject">Subject</label>
+                        <input type="text" name="subject" id="idSubject" value="">
+                    </div>
+                    <br/>
+                    <div class="setField">
+                        <label for="idMessage">Message</label>
+                        <textarea name="message" id="idMessage"> </textarea>
+                    </div>
+                    <br/>
+                    <div class="setField">                      
+                        <input type="submit" id="idSubmit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+        <div class="Business">
+            <h2 style="text-align:left">Press and Business</h2>
+            <ul>
+                <li>
+                    <p style="text-align:left">
+                        If you want to share footage from our games (Let’s Play videos on YouTube etc.): no problem
+                        - you have our permission (no need to contact us).
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align:left">
+                        We don't do any contract work.
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align:left">
+                        We have no job or internship positions currently available.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="others">
+        <img src="img/Logo.png" alt="Logo">
+        <p>
+            © Copyright 2020. All Rights Reserved.
+        </p>
+    </footer>
+    <script src="JS/Menu.js"></script>
+</body>
+</html>

@@ -10,7 +10,7 @@
   <body>
     <header>
       <div id="ComponentsPos">
-        <div id="logo"> <a href="Home.html"> <img src="img/logo.png" alt="Logo of the Studio">
+        <div id="logo"> <a href="Home.html"> <img src="img/Logo.png" alt="Logo of the Studio">
           </a> </div>
         <div class="icon" onclick="myFunction()">
           <div></div>

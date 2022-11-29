@@ -22,17 +22,6 @@ header
   display: block;
 }
 
-#ComponentsPos 
-{
-  width: 70%;
-  max-width: 1700px;
-  margin: auto;
-  height: 150px;
-  font-size: 16pt;
-  font-family: Open sans-serif, Arial, sans-serif;
-  font-weight: bold;
-}
-
 #logo img 
 {
   height: 100px;
